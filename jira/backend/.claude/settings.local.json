@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew build:*)",
+      "Bash(docker compose down:*)",
+      "Bash(/Users/malinatrash/dev/java/jira/.env:*)"
+    ]
+  }
+}
