@@ -46,7 +46,7 @@ public class TaskController {
     @Operation(summary = "Get task by ID")
     public ResponseEntity<TaskResponse> getById(@PathVariable UUID id) {
         return ResponseEntity.ok(taskUseCase.getById(id));
-    }
+    } 
 
     @PutMapping("/{id}")
     @Operation(summary = "Update task")
